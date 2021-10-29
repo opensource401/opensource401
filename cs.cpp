@@ -1,4 +1,3 @@
-// C++ program for implementation of selection sort
 #include <bits/stdc++.h>
 using namespace std;
 
@@ -13,7 +12,6 @@ void selectionSort(int arr[], int n)
 {
 	int i, j, min_idx;
 
-	// One by one move boundary of unsorted subarray
 	for (i = 0; i < n-1; i++)
 	{
 		// Find the minimum element in unsorted array
@@ -27,7 +25,6 @@ void selectionSort(int arr[], int n)
 	}
 }
 
-/* Function to print an array */
 void printArray(int arr[], int size)
 {
 	int i;
@@ -36,7 +33,7 @@ void printArray(int arr[], int size)
 	cout << endl;
 }
 
-// Driver program to test above functions
+
 int main()
 {
 	int arr[] = {64, 25, 12, 22, 11};
@@ -47,4 +44,3 @@ int main()
 	return 0;
 }
 
-// This is code is contributed by rathbhupendra
